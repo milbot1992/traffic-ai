@@ -17,8 +17,8 @@ This project implements a traffic sign classification system using convolutional
 ## Setup and Installation
 1. **Clone the Repository**:
     ```
-    git clone https://github.com/your-repository/traffic-classification.git
-    cd traffic-classification
+    git clone https://github.com/milbot1992/traffic-ai
+    cd traffic-ai
     ```
 
 2. **Install Dependencies**:
