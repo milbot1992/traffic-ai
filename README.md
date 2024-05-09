@@ -39,7 +39,7 @@ This project implements a traffic sign classification system using convolutional
 ## Training the Model
 Run `traffic.py` with the path to your dataset to train the model and save it:
 
-```python traffic.py /path/to/data_directory
+```python traffic.py /path/to/data_directory```
 
 - **Arguments**:
   - `data_directory`: Path to the dataset directory.
@@ -48,7 +48,7 @@ Run `traffic.py` with the path to your dataset to train the model and save it:
 ## Running the Flask Application
 After training, start the Flask server to classify images:
 
-```python app.py
+```python app.py```
 
 The server will run on `http://localhost:5000/`.
 
@@ -59,7 +59,7 @@ The server will run on `http://localhost:5000/`.
 - **Response**: JSON containing the predicted class of the traffic sign.
 
 ## Example Curl Request
-```curl -X POST -F 'file=@path_to_image.jpg' http://localhost:5000/classify
+```curl -X POST -F 'file=@path_to_image.jpg' http://localhost:5000/classify```
 
 
 ## Contributing
