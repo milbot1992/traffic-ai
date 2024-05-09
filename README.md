@@ -33,7 +33,7 @@ This project implements a traffic sign classification system using convolutional
         ```
 
 3. **Prepare the Dataset**:
-    - Ensure your dataset is structured with images categorized into folders named `0` to `42`, corresponding to different traffic signs.
+    - Ensure your dataset is structured with images categorised into folders named `0` to `42`, corresponding to different traffic signs.
     - Place your dataset directory in the project root or specify the path when running the training script.
 
 ## Training the Model
